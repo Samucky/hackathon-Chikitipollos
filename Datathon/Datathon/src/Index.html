@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Header</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+    <div class="shadow-md w-full fixed top-0 left-0">
+        <div class="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
+            <div class="font-bold text-2xl cursor-pointer flex items-center gap-1">
+                <span>Valoréa</span>
+            </div>
+            <div id="menu-btn" class="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7">
+            </div>
+            <ul id="nav-links" class="md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in top-[-490px]">
+                <li class="md:ml-8 md:my-0 my-7 font-semibold">
+                    <a href="/" class="text-gray-800 hover:text-blue-400 duration-500">INICIO</a>
+                </li>
+                <li class="md:ml-8 md:my-0 my-7 font-semibold">
+                    <a href="https://www.merida.gob.mx/salud/salud_mental.php" class="text-gray-800 hover:text-blue-400 duration-500">SERVICIOS</a>
+                </li>
+                <li class="md:ml-8 md:my-0 my-7 font-semibold">
+                    <a href="https://www.gob.mx/salud/conadic/acciones-y-programas/centro-de-atencion-ciudadana-contra-las-adicciones-134381" class="text-gray-800 hover:text-blue-400 duration-500">CONTACTOS</a>
+                </li>       
+            </ul>
+        </div>
+    </div>
+
+    <div class="bg-blue-50 py-16">
+        <div class="container mx-auto flex flex-col lg:flex-row items-center lg:space-x-8">
+            <div class="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0">
+                <h1 class="text-4xl font-bold text-gray-800 mb-4">Obtenga atención asequible, cuando y donde la necesite</h1>
+                <p class="text-gray-600">La atención de salud mental accesible no debería ser un lujo, y el costo no debería ser un obstáculo que le impida obtener ayuda. Con Valoréa, puede estar seguro de que recibirá un apoyo integral y asequible, adaptado a sus necesidades y desde la comodidad de su hogar. Valoréa se dedica a hacer que la salud mental de calidad sea accesible para todos, sin importar las barreras financieras.</p>
+            </div>
+            <div class="lg:w-1/2">
+                <img src="/Datathon/Datathon/IMG/A.jpg" alt="Persona utilizando laptop" class="rounded-lg shadow-lg mx-auto">
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container mx-auto text-center py-16">
+        <h1 class="text-3xl font-bold text-gray-800 mb-4">Cómo Obtener Asistencia Inmediata con Valoréa</h1>
+        <p class="text-gray-600 mb-8">En nuestra app Valoréa, encontrarás un botón de ayuda visible en la pantalla principal y en secciones clave de la aplicación.</p>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-blue-100 p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">Ubicación del Botón</h2>
+                <p class="text-gray-600 mb-4">En nuestra app Valoréa, encontrarás un botón de ayuda visible en la pantalla principal y en secciones clave de la aplicación.</p>
+            </div>
+            <div class="bg-indigo-100 p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">Presiona el Botón</h2>
+                <p class="text-gray-600 mb-4">Al tocar el botón de ayuda, se activará una solicitud de asistencia inmediata.</p>
+            </div>
+            <div class="bg-blue-200 p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">Notificación a Autoridades</h2>
+                <p class="text-gray-600 mb-4">Tu solicitud será enviada automáticamente a las autoridades competentes que están disponibles para responder a emergencias.</p>
+            </div>
+            <div class="bg-red-100 p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">Asistencia Inmediata</h2>
+                <p class="text-gray-600 mb-4">Recibirás una respuesta y orientación de las autoridades para garantizar que recibas el apoyo necesario de manera rápida y efectiva.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bg-[#0a5a66] text-white py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-12">Primeros pasos con Valoréa</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="flex flex-col items-center">
+                    <img src="/Datathon/Datathon/IMG/2.png" alt="Icono de evaluación" class="w-20 h-20 mb-4">
+                    <h3 class="text-xl font-semibold">Evaluación Inicial</h3>
+                    <p class="mt-2 text-gray-300">Responda a una serie de preguntas diseñadas para evaluar su estado psicológico y el riesgo de sufrir daño emocional.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="/Datathon/Datathon/IMG/3.png" alt="Icono de emparejamiento" class="w-20 h-20 mb-4">
+                    <h3 class="text-xl font-semibold">Análisis de Resultados</h3>
+                    <p class="mt-2 text-gray-300">Nuestro equipo revisará sus respuestas para entender su situación actual y las áreas que necesitan atención.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="/Datathon/Datathon/IMG/4.png" alt="Icono de terapia" class="w-20 h-20 mb-4">
+                    <h3 class="text-xl font-semibold">Emparejamiento Personalizado</h3>
+                    <p class="mt-2 text-gray-300">Le pondremos en contacto con un proveedor de salud mental adecuado para sus necesidades específicas.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="/Datathon/Datathon/IMG/5.png" alt="Icono de terapia" class="w-18 h-20 mb-4">
+                    <h3 class="text-xl font-semibold">Iniciar Terapia</h3>
+                    <p class="mt-2 text-gray-300">Comience el viaje hacia una mayor salud mental y bienestar con el apoyo continuo de su proveedor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mx-auto p-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Nuestra misión</h2>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="text-xl text-gray-700 font-medium">“En Valoréa, nuestra misión es proporcionar apoyo integral a todas las mujeres y hombres que enfrentan violencia psicológica o física. Estamos comprometidos a ofrecer servicios de salud mental de alta calidad, respaldados por profesionales dedicados y atentos, para garantizar un acompañamiento eficaz y transformador en la recuperación y bienestar de nuestros clientes.”</p>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Nuestra red de terapeutas</h2>
+                <div class="bg-transparent p-4">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <p class="text-4xl font-extrabold text-gray-800">5,000+</p>
+                            <p class="text-lg text-gray-600">proveedores en la red de Talkspace</p>
+                        </div>
+                        <div>
+                            <p class="text-4xl font-extrabold text-gray-800">30+</p>
+                            <p class="text-lg text-gray-600">Idiomas hablados</p>
+                        </div>
+                        <div>
+                            <p class="text-4xl font-extrabold text-gray-800">~30%</p>
+                            <p class="text-lg text-gray-600">identificarse como BIPOC</p>
+                        </div>
+                        <div>
+                            <p class="text-4xl font-extrabold text-gray-800">50</p>
+                            <p class="text-lg text-gray-600">estados de licencia y DC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mx-auto p-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+            <div>
+                <h2 class="text-3xl font-bold text-teal-800 mb-8">Cómo funciona Valoréa</h2>
+                <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md border">
+                        <h3 class="text-xl font-semibold text-teal-800 flex items-center">
+                            <span class="text-4xl font-bold text-teal-700 mr-4">1</span>
+                            Botón de ayuda
+                        </h3>
+                        <p class="mt-2 text-gray-600">En la aplicación Valoréa, los usuarios encontrarán un botón de ayuda claramente visible. Al presionar este botón, se activa una solicitud de asistencia inmediata, que inicia el proceso de apoyo.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md border">
+                        <h3 class="text-xl font-semibold text-teal-800 flex items-center">
+                            <span class="text-4xl font-bold text-teal-700 mr-4">2</span>
+                            Asistencia Inmediata
+                        </h3>
+                        <p class="mt-2 text-gray-600">Una vez enviada la solicitud, se recibe una respuesta rápida y orientación de las autoridades competentes. Esto asegura que el usuario obtenga el apoyo necesario de manera efectiva y sin demoras.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md border">
+                        <h3 class="text-xl font-semibold text-teal-800 flex items-center">
+                            <span class="text-4xl font-bold text-teal-700 mr-4">3</span>
+                            Evaluación Psicológica
+                        </h3>
+                        <p class="mt-2 text-gray-600">Los usuarios responden a una serie de preguntas diseñadas para evaluar su estado psicológico y el riesgo de daño emocional. Esta evaluación ayuda a comprender mejor la situación y determinar el tipo de apoyo necesario.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md border">
+                        <h3 class="text-xl font-semibold text-teal-800 flex items-center">
+                            <span class="text-4xl font-bold text-teal-700 mr-4">4</span>
+                            Denuncias Anónimas
+                        </h3>
+                        <p class="mt-2 text-gray-600">Valoréa también ofrece la opción de realizar denuncias anónimas. Esto permite a los usuarios proteger su privacidad mientras reciben la ayuda necesaria sin comprometer su identidad.</p>
+                    </div>
+                </div>
+            </div>
+       
+
+            <div class="relative">
+                <div class="absolute -top-4 -left-4 bg-teal-100 w-64 h-96 rounded-lg"></div>
+                <img src="https://via.placeholder.com/150x300" alt="Teléfono mostrando la aplicación Valoréa" class="relative w-72 rounded-lg shadow-lg">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mx-auto p-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+                <h1 class="text-5xl font-bold text-teal-700">Conozca a los <br> proveedores con <br> licencia de Valoréa</h1>
+                <p class="mt-4 text-lg text-gray-700">Nuestra red de terapeutas y proveedores psiquiátricos se especializan en 150+ afecciones, enfoques de tratamiento y necesidades de salud mental.</p>
+                
+                <div class="mt-6 flex flex-wrap gap-2">
+                    <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full">DEPRESIÓN</span>
+                    <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full">RELACIONES</span>
+                    <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full">ANSIEDAD Y ESTRÉS</span>
+                    <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full">CRIANZA</span>
+                    <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full">LGBTQIA+</span>
+                    <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full">ENFERMEDAD CRÓNICA</span>
+                    <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full">TRASTORNOS ALIMENTARIOS</span>
+                    <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full">TOC</span>
+                    <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full">MANEJO DE LA IRA</span>
+                    <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full">MALTRATO INFANTIL</span>
+                    <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full">TRASTORNOS DEL ESTADO DE ÁNIMO</span>
+                    <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full">TRAUMA Y DUELO</span>
+                    <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full">SOLEDAD</span>
+                    <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full">CONFLICTO FAMILIAR</span>
+                    <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full">Y MÁS...</span>
+                </div>
+
+                <button class="mt-8 bg-teal-700 text-white px-4 py-2 rounded" onclick="window.location.href='FormI.html'">Comenzar</button>
+            </div>
+
+            <div class="flex items-center justify-center">
+                <div class="max-w-sm text-center">
+                    <img src="/Datathon/Datathon/IMG/xd.jpg" alt="Elizabeth Keohan" class="rounded-lg shadow-lg">
+                    <p class="mt-4 text-teal-700 font-bold text-lg">#########</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-[#0a5a66] text-white">
+        <div class="container mx-auto py-8 px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <h4 class="font-bold mb-4">Servicios</h4>
+                <ul>
+                    <li><a href="#" class="hover:underline">Terapia en línea</a></li>
+                    <li><a href="#" class="hover:underline">Terapia de pareja</a></li>
+                    <li><a href="#" class="hover:underline">Psiquiatría</a></li>
+                    <li><a href="#" class="hover:underline">Terapia para adolescentes</a></li>
+                    <li><a href="#" class="hover:underline">Comunidad LGBTQIA+</a></li>
+                    <li><a href="#" class="hover:underline">Terapia para veteranos</a></li>
+                    <li><a href="#" class="hover:underline">Terapia de mensajería ilimitada</a></li>
+                    <li><a href="#" class="hover:underline">Valoréa para empresas</a></li>
+                    <li><a href="#" class="hover:underline">Duración de Valoréa</a></li>
+                    <li><a href="#" class="hover:underline">Aplicación autoguiada Valoréa</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Enlaces de interés</h4>
+                <ul>
+                    <li><a href="#" class="hover:underline">Buscar un terapeuta</a></li>
+                    <li><a href="#" class="hover:underline">Biblioteca de salud mental</a></li>
+                    <li><a href="#" class="hover:underline">Pruebas de salud mental gratuitas</a></li>
+                    <li><a href="#" class="hover:underline">Test de ansiedad</a></li>
+                    <li><a href="#" class="hover:underline">Test de depresión</a></li>
+                    <li><a href="#" class="hover:underline">Reseñas de Valoréa</a></li>
+                    <li><a href="#" class="hover:underline">Cobertura de seguro</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Acerca de</h4>
+                <ul>
+                    <li><a href="#" class="hover:underline">Blog</a></li>
+                    <li><a href="#" class="hover:underline">Carreras</a></li>
+                    <li><a href="#" class="hover:underline">Únete a nuestra red</a></li>
+                    <li><a href="#" class="hover:underline">Prensa</a></li>
+                    <li><a href="#" class="hover:underline">Investigación</a></li>
+                    <li><a href="#" class="hover:underline">Inversores</a></li>
+                    <li><a href="#" class="hover:underline">Política de privacidad</a></li>
+                    <li><a href="#" class="hover:underline">Condiciones de uso</a></li>
+                    <li><a href="#" class="hover:underline">Accesibilidad</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Contacto</h4>
+                <p>Si se encuentra en una situación que pone en peligro su vida, no utilice este sitio. Llame al 988 o use estos recursos para obtener ayuda inmediata.</p>
+                <p class="mt-4">
+                    <strong>Correspondencia comercial</strong><br />
+                    C. 111 315, Santa Rosa,<br />
+                    97279 Mérida, Yuc.
+                </p>
+            </div>
+        </div>
+        <div class="text-center py-4 bg-[#0a5a66] text-white">
+            <p>&copy; 2024 Valoréa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
